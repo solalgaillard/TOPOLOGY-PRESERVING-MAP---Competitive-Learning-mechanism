@@ -1,2 +1,17 @@
+# TOPOLOGY-PRESERVING-MAP---Competitive-Learning-mechanism
+Create a topology map from 2D coordinates (2 elements vector as a signal)
+
 This python program demonstrate the creation of a topology map from 2D coordinates. 
 As we way to demonstrate the algorithm, we use an 8*8 matrix and iterate enough so all processors' weight are .66. The entry coordinates are random and so are the initial weights despite being limited between .45 and .55.
+
+$ ./Top-Map.py
+Here, we are testing the topology map by using a 8*8 matrix, we initiate each processor's attractivity between .45 and .55, .2 as a learning coefficient of .2. The signals are random and because we iterate 2 * (10**4), all processors' weight end up at the same place:
+
+     0 0	0.50 --> 0.66
+     0 1	0.53 --> 0.66
+     0 2	0.51 --> 0.66
+     0 3	0.52 --> 0.66
+     0 4	0.45 --> 0.66
+     0 5	0.52 --> 0.66
+     0 6	0.46 --> 0.66
+...........
