@@ -1,0 +1,2 @@
+This python program demonstrate the creation of a topology map from 2D coordinates. 
+As we way to demonstrate the algorithm, we use an 8*8 matrix and iterate enough so all processors' weight are .66. The entry coordinates are random and so are the initial weights despite being limited between .45 and .55.
